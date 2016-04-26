@@ -36,7 +36,7 @@
 						<table class=generic-table>
 							<thead data-ng-hide="mainVm.loadingUsernameSearch === true || mainVm.loadingUsernameSearch === 'more' || mainVm.loadingUsernameSearch === 'error' || mainVm.username === ''">
 								<tr>
-									<td>Username</td>
+									<td>Username</td>a
 								</tr>
 							</thead>
 							<tbody>
