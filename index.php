@@ -44,7 +44,7 @@
 									<td>Fill search field with at least 4 characters.</td>
 								</tr>
 								<tr data-ng-show="mainVm.loadingUsernameSearch === true">
-									<td>Loading...</td>
+									<td>Loading</td>
 								</tr>
 								<tr data-ng-hide="mainVm.loadingUsernameSearch === true || mainVm.loadingUsernameSearch === 'more' || mainVm.loadingUsernameSearch === 'error' || mainVm.username === ''" data-ng-repeat="user in mainVm.usersLoaded track by $index">
 									<td><img src="{{user.avatar_url}}" alt="{{user.login}}'s avatar" /> <span data-ng-bind="user.login"></span></td>
