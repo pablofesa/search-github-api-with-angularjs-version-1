@@ -84,8 +84,14 @@ md-input-container{
 	margin:0;
 	padding:0;
 }
-.main-search-label{
-	margin-bottom:10px;
+.main-search-label-none{
+	margin:10px 0;
+}
+.main-search-label-filled{
+	display: inline-block;
+    margin: 0 0 0 50px;
+    position: relative;
+    bottom: 3px;
 }
 .main-search-label input{
 	border-left: none;

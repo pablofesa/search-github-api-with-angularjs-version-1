@@ -18,9 +18,9 @@
 					<header>
 						<div class=total-header data-ng-class="{'normal-search': mainVm.searchWasFilled === true}">
 							<img src="img/g-logo.png" class="github-logo" alt="Github logo" data-ng-click="mainVm.goBackToHome()" /><h1 data-ng-click="mainVm.goBackToHome()">Github search</h1>
-						</div>
-						<div class=main-search-label>
-							<input type=text data-ng-model="mainVm.username" data-ng-change="mainVm.determinateChange(mainVm.username)">
+							<div class=main-search-label data-ng-class="{'main-search-label-none': mainVm.searchWasFilled === false, 'main-search-label-filled': mainVm.searchWasFilled === true}">
+								<input type=text data-ng-model="mainVm.username" data-ng-change="mainVm.determinateChange(mainVm.username)">
+							</div>
 						</div>
 					</header>
 					<div class=search-results>
