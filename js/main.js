@@ -18,7 +18,7 @@
     	// declaracion de funciones
 
     	vm.goBackToHome = function (){
-	   		vm.username = ''; // por alguna razón esto a veces no funciona
+	   		vm.username = '';
 	   		vm.searchWasFilled = false;
 	   	}
 
