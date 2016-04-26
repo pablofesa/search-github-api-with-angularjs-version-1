@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('githubNav', ['ngMaterial','ngSanitize']);
+    angular.module('githubNav', ['ngSanitize']);
     angular.module('githubNav').controller('mainCtrl', mainCtrl)
 
     mainCtrl.$inject = ['$http','$timeout'];

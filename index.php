@@ -9,10 +9,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.7/angular-material.min.css" rel=stylesheet>
 		<link href="css/main.css" rel=stylesheet>
 	    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-	    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
-	    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
 	    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.3/angular-sanitize.min.js"></script>
-	    <script src="//ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
 		<script src="js/main.js"></script>
 	</head>
 	<body data-ng-controller="mainCtrl as mainVm">
@@ -24,12 +21,7 @@
 							<img src="img/g-logo.png" class="github-logo" alt="Github logo" data-ng-click="mainVm.goBackToHome()" /><h1 data-ng-click="mainVm.goBackToHome()">Github search</h1>
 						</div>
 						<div class=main-search-label>
-							<md-content layout-gt-sm="row">
-							    <md-input-container>
-							      <label>Enter username</label>
-							      <input data-ng-model="mainVm.username" data-ng-change="mainVm.determinateChange(mainVm.username)">
-							    </md-input-container>
-							</md-content>
+							<input type=text data-ng-model="mainVm.username" data-ng-change="mainVm.determinateChange(mainVm.username)">
 						</div>
 					</header>
 					<div class=search-results>

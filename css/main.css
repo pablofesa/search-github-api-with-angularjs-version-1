@@ -33,6 +33,11 @@ table{
 		width: 990px;
 	}
 }
+.github-logo{
+	width:50px;
+	height:49px;
+	cursor:pointer;
+}
 .generic-table td{
 	padding:5px 2px;
 }
@@ -60,6 +65,7 @@ section h1{
 	letter-spacing: -0.9px;
 	font-weight: bold;
 	font-style: oblique;
+	cursor:pointer;
 }
 .total-header{
 	margin-bottom:12px;
@@ -80,6 +86,18 @@ md-input-container{
 }
 .main-search-label{
 	margin-bottom:10px;
+}
+.main-search-label input{
+	border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px dotted #000;
+}
+.main-search-label input:focus{
+	border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #f00;
 }
 thead td{
 	background-color:#283372;
