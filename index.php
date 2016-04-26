@@ -6,7 +6,6 @@
 		<title>Mini github navigator</title>
 		<META NAME=ROBOTS CONTENT="NOINDEX, NOFOLLOW">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel=stylesheet integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin=anonymous>
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.7/angular-material.min.css" rel=stylesheet>
 		<link href="css/main.css" rel=stylesheet>
 	    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
 	    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.3/angular-sanitize.min.js"></script>
