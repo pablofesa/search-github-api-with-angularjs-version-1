@@ -3,4 +3,4 @@ This simple script uses Github API to search. This script uses AngularJS version
 
 Version 0.1:
 
-- Allowed search for usernames in Github.
+- Allowed search in Github.
