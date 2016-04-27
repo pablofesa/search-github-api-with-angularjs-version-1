@@ -36,13 +36,13 @@
 	      	}
 	      }).
 	        then(function(response) {
-	          resultUserName.status = response.status;
+	          // resultUserName.status = response.status;
 	          resultUserName.data = response.data;
 	          vm.usersLoaded = resultUserName.data.items;
 	          vm.loadingUsernameSearch = false;
 	        }, function(response) {
 	          resultUserName.data = response.data || "Request failed";
-	          resultUserName.status = response.status;
+	          // resultUserName.status = response.status;
 	          console.log(resultUserName.data);
 	          vm.loadingUsernameSearch = 'error';
 	      });
